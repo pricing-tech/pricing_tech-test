@@ -31,7 +31,7 @@ const fetchProducts = async () => {
 
    await initTable(result);
    await addFiltersTable();
-   createToolbar();
+   // createToolbar();
 };
 
 async function initTable(products) {
@@ -443,25 +443,25 @@ function filtrarProduto() {
    $("#table").bootstrapTable("filterBy", filters);
 }
 
-function createToolbar() {
-   var toolbar = document.querySelector(".fixed-table-toolbar");
-   var toolbar_actions = document.createElement("div");
-   toolbar_actions.classList.add("toolbar-actions");
+// function createToolbar() {
+//    var toolbar = document.querySelector(".fixed-table-toolbar");
+//    var toolbar_actions = document.createElement("div");
+//    toolbar_actions.classList.add("toolbar-actions");
 
-   toolbar.appendChild(toolbar_actions);
+//    toolbar.appendChild(toolbar_actions);
 
-   toolbar_actions.innerHTML = `
-   <button id="new-product" class="add-product" data-dismiss="modal"><i class="fa fa-plus" aria-hidden="true"></i>Adicionar</button>`;
+//    toolbar_actions.innerHTML = `
+//    <button id="new-product" class="add-product" data-dismiss="modal"><i class="fa fa-plus" aria-hidden="true"></i>Adicionar</button>`;
 
-   // var actions_buttons = document.createElement("button");
-   // actions_buttons.classList.add("add-regime");
-   // actions_buttons.textContent = "Adicionar";
+//    // var actions_buttons = document.createElement("button");
+//    // actions_buttons.classList.add("add-regime");
+//    // actions_buttons.textContent = "Adicionar";
 
-   // toolbar_actions.appendChild(actions_buttons);
+//    // toolbar_actions.appendChild(actions_buttons);
 
-   var addProduct = document.getElementById("new-product");
+//    var addProduct = document.getElementById("new-product");
 
-   addProduct.addEventListener("click", () => {
-      window.location.href = "./product.html";
-   });
-}
+//    addProduct.addEventListener("click", () => {
+//       window.location.href = "./product.html";
+//    });
+// }
