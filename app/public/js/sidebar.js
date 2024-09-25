@@ -6,7 +6,7 @@ side_bar.innerHTML = `<div class="logo-details">
 </div>
 <ul class="nav-links">
 <li class="menu-1">
-<a href="home.html">
+<a href="index.html">
 <i class="bx bx-store"></i>
 <span class="link_name">Home</span>
 </a>
@@ -46,12 +46,12 @@ side_bar.innerHTML = `<div class="logo-details">
 </ul>
 </li>
 <li class="menu-4">
-<a href="users.html">
+<a href="#">
 <i class="bx bx-user"></i>
 <span class="link_name">Usuários</span>
 </a>
 <ul class="sub-menu blank">
-<li class="li-blank"><a class="link_name" href="users.html">Usuários</a></li>
+<li class="li-blank"><a class="link_name" href="#">Usuários</a></li>
 </ul>
 </li>
 <li class="mt-4 menu-5">
