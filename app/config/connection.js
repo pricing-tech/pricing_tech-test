@@ -1,4 +1,5 @@
 const mysql = require("mysql2");
+const fs = require("fs");
 
 let pool;
 
@@ -8,6 +9,8 @@ function connectToDatabase() {
       user: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
+      port: process.env.DB_PORT,
+      ssl: fs.readFileSync(process.env.DB_SSL),
       waitForConnections: true,
       connectionLimit: 10,
       queueLimit: 0,
