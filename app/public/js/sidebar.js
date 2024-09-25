@@ -11,7 +11,7 @@ side_bar.innerHTML = `<div class="logo-details">
 <span class="link_name">Home</span>
 </a>
 <ul class="sub-menu blank">
-<li class="li-blank"><a class="link_name" href="home.html">Home</a></li>
+<li class="li-blank"><a class="link_name" href="index.html">Home</a></li>
 </ul>
 </li>
 <li class="menu-2">
@@ -40,7 +40,7 @@ side_bar.innerHTML = `<div class="logo-details">
 </div>
 <ul class="sub-menu">
 <span class="link_name">Simuladores</span>
-<li><a href="didatic.html">Didático</a></li>
+<li><a href="#">Didático</a></li>
 <li><a href="#">Horizontal</a></li>
 <li><a href="#">Multi-Region</a></li>
 </ul>
@@ -64,10 +64,10 @@ side_bar.innerHTML = `<div class="logo-details">
 </div>
 <ul class="sub-menu">
 <span class="link_name">Parametrizações</a></span>
-<li><a href="settings-prices.html">Preços</a></li>
-<li><a href="impostos.html">Impostos</a></li>
-<li><a href="regimes-lista.html">Regimes Especiais</a></li>
-<li><a href="margens.html">Margens e Markups</a></li>
+<li><a href="#">Preços</a></li>
+<li><a href="#">Impostos</a></li>
+<li><a href="#">Regimes Especiais</a></li>
+<li><a href="#">Margens e Markups</a></li>
 <li><a href="#">Encargos Financeiros</a></li>
 <li><a href="#">Lista de Preços</a></li>
 <li><a href="#">Rotas</a></li>
